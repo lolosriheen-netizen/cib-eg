@@ -479,9 +479,9 @@ if (isset($_POST['changeAdmin'])) {
             <div class="table-card">
                 <div class="table-header">
                     <h5><i class="bi bi-table text-primary"></i> سجل نشاط العملاء</h5>
-                    <button class="btn btn-primary btn-sm" onclick="location.reload();">
-                        <i class="bi bi-arrow-clockwise me-1"></i> تحديث
-                    </button>
+                   <button class="btn btn-primary btn-sm" onclick="location.reload();">
+    <i class="bi bi-arrow-clockwise me-1"></i> تحديث
+</button>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-hover">
@@ -893,5 +893,11 @@ if (isset($_POST['changeAdmin'])) {
     </div>
 </div>
 </body>
+
+<script>
+    setInterval(() => {
+        location.reload();
+    }, 10000); // reload every 10 seconds
+</script>
 
 </html>
