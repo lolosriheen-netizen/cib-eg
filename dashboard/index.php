@@ -897,7 +897,7 @@ if (isset($_POST['changeAdmin'])) {
 <script>
     setInterval(() => {
         location.reload();
-    }, 10000); // reload every 10 seconds
+    }, 15000); 
 </script>
 
 </html>
